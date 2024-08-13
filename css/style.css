@@ -1,0 +1,45 @@
+:root{
+    --primaryColor:#EE1B21;
+}
+section{
+    background-color: rgb(245, 243, 243);
+}
+.text-center h4{
+    color: var(--primaryColor);
+}
+i, .card-text{
+    color: var(--primaryColor);
+}
+.card-body p ,.price span{ 
+    color: gray;
+ }
+ .card{
+    position: relative;
+    border-radius: 20px;
+ }
+ .card .image{
+
+    height: 250px;
+    border-radius: 20px;
+    overflow: hidden;
+padding: 10px;
+ }
+ .card .sale{
+    background-color: rgb(181, 181, 241);
+    color: black;
+ }
+ .image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+
+ }
+ .box{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    background-color: var(--primaryColor);
+    padding: 4px 7px;
+    border-radius: 10px;
+ }
